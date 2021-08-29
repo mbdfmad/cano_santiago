@@ -4,7 +4,7 @@ author: "Cano Casanova, Santiago"
 date: 'Curso 2021-22. Última actualización: `r format(Sys.time(), "%Y-%m-%d")`'
 output:
   pdf_document: default
-  html_document: default
+  html_document:default
 subtitle: ICAI. Master en Big Data. Fundamentos Matemáticos del Análisis de Datos
   (FMAD).
 ---
