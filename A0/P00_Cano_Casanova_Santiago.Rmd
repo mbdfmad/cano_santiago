@@ -4,7 +4,7 @@ author: "Cano Casanova, Santiago"
 date: 'Curso 2021-22. Última actualización: `r format(Sys.time(), "%Y-%m-%d")`'
 output:
   pdf_document: default
-  html_document:default
+  html_document: default
 subtitle: ICAI. Master en Big Data. Fundamentos Matemáticos del Análisis de Datos
   (FMAD).
 ---
@@ -13,7 +13,13 @@ subtitle: ICAI. Master en Big Data. Fundamentos Matemáticos del Análisis de Da
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Ejercicio 0 (ejemplo).
+# Ejercicio 1 (dado honesto).
+
+**Enunciado** Crea el dado honesto
+```{r}
+dado=sample(1:6,100,replace=TRUE)
+dado
+```
 
 **Enunciado:** Usa la función `seq` de R para fabricar un vector `v` con los múltiplos de 3 del 0 al 300. Muestra los primeros 20 elementos de `v` usando `head` y calcula:
 
